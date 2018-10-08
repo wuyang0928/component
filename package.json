@@ -1,28 +1,22 @@
 {
-  "name": "domify",
-  "version": "1.4.0",
-  "description": "turn HTML into DOM elements",
-  "keywords": [
-    "dom",
-    "html",
-    "client",
-    "browser",
-    "component"
-  ],
-  "author": "TJ Holowaychuk <tj@vision-media.ca>",
-  "dependencies": {},
-  "component": {
-    "scripts": {
-      "domify/index.js": "index.js"
-    }
+  "name": "governance",
+  "version": "0.21.1",
+  "description": "Component Detection",
+  "private": true,
+  "main": "componentdetection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "index.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/domify.git"
-  },
-  "files": [
-    "index.js"
-  ]
+  "repository": {},
+  "author": "Microsoft Corporation",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^6.0.68",
+    "adm-zip": "^0.4.11",
+    "archiver": "1.0.1",
+    "node-fetch": "^1.6.3",
+    "q": "^1.4.1",
+    "vsts-task-lib": "2.3.0",
+    "xmlreader": "^0.2.3"
+  }
 }
